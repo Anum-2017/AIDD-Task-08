@@ -1,0 +1,45 @@
+/sp.constitution
+Build a Basic Calculator CLI program.
+It must support: addition, subtraction, multiplication, division (with zero-division handling).
+User enters two numbers + operator. Output must be clear.
+Program must display: "Welcome to the Simple CLI Calculator!" at start.
+
+/sp.specify
+Requirements:
+1. Program runs in Python.
+2. Functions: add(a,b), subtract(a,b), multiply(a,b), divide(a,b with zero check).
+3. main.py must:
+   - print "Welcome to the Simple CLI Calculator!"
+   - ask user for two numbers
+   - ask for operator (+,-,*,/)
+   - call correct function
+   - display result
+4. Store logic in src/calculator.py
+5. main.py is entry point
+
+/sp.plan
+1. Create src/calculator.py
+2. Implement add()
+3. Implement subtract()
+4. Implement multiply()
+5. Implement divide() with zero-division handling
+6. Create main.py
+7. Add welcome message: "Welcome to the Simple CLI Calculator!"
+8. Add user input prompts
+9. Add operator logic
+10. Print final result
+
+/sp.tasks
+T001: Create src/calculator.py
+T002: Implement add()
+T003: Implement subtract()
+T004: Implement multiply()
+T005: Implement divide() with zero-division handling
+T006: Create main.py
+T007: Add welcome message
+T008: Add user input prompts
+T009: Add operator selection logic
+T010: Print final result
+T011: Test program
+
+/sp.implement
